@@ -1,6 +1,11 @@
+.body {
+    margin: 0;
+}
+
 .main-body{
     max-width: 100vw;
     height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-top{
@@ -10,20 +15,28 @@
 .main-head{
     background-color: white;
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-left: 325px;
     justify-content: space-around;
     font-size: 2rem;
-    padding-top: 0px;
+    align-content: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .div-img {
-    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
 }
 
 .main-head h1 {
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 0px;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    height: 50px;
+    padding-bottom: 0px;
 }
 
 .text-img {
@@ -37,7 +50,9 @@
     background-size: cover;
     margin: 0 0;
     max-width: 1400px;
-    padding: 400px 0px;
+    padding-top: 200px;
+    padding-bottom: 400px;
+
 }
 
 .btn {
@@ -46,53 +61,217 @@
     border-radius: 50px;
     width: 330px;
     height: 100px;
-    background-color: black;
+    background-color: #2c2c2c;
     color: white;
     font-size: 1.5rem;
 }
 
 .cursos {
     display: flex;
-    background-color: gray;
     height: 500px;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-image:  linear-gradient( to bottom, #191919, #2c2c2c );
 }
 
 .first-course {
     padding-left: 10px;
     padding-top: 10px;
-    border: 5px solid white;
     border-radius: 10px;
-    margin: 100px 0 0 100px;
-    font-size: 1.3rem;
+    margin: 80px 0 0 0px;
+    font-size: 1.4rem;
     padding-right: 10px;
-    height: 350px;
-    background-color: white;
-    width: 290px;
+    height: 380px;
+    background-color: transparent;
+    background-image:  linear-gradient( to bottom, #ffffff, #949494 );
+    width: 340px;
     text-align: center;
+}
+
+.cell-img{
+    padding-top: 10px;
+    width: 50px;
+    height: 90;
+}
+
+.first-course h1 {
+    padding-top:30px;
+}
+
+.first-course p {
+    padding-top: 0px;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .second-course{
     padding-left: 10px;
     padding-top: 10px;
-    border: 5px solid white;
     border-radius: 10px;
-    margin: 100px 0 0 100px;
+    margin-top: 80px;
+    margin-left: 0px;
     font-size: 1.3rem;
     padding-right: 10px;
-    height: 350px;
-    background-color: white;
+    height: 380px;
+    background-color: transparent;
+    background-image:  linear-gradient( to bottom, #ffffff, #949494 );
     text-align: center;
+    width: 350px;
 }
+
+.second-course h1 {
+    padding-top: 30px;
+    font-size: 1.4rem;
+}
+
+.second-course p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.screen-img{
+    padding-top: 10px;
+    width: 110px;
+}
+
 
 .third-course {
     padding-left: 10px;
     padding-top: 10px;
-    border: 5px solid white;
     border-radius: 10px;
-    margin: 100px 0 0 100px;
+    margin-top: 80px;
+    margin-left: 0px;
     font-size: 1.3rem;
-    padding-right: 10px;
-    height: 350px;
-    background-color: white;
+    padding-right: 0px;
+    height: 380px;
+    background-color: transparent;
+    background-image:  linear-gradient( to bottom, #ffffff, #949494 );
     text-align: center;
+    width: 350px;
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
+}
+
+.third-course h1 {
+    margin-top: 60px;
+}
+
+.third-course p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+}
+
+.div-images {
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.first-img {
+    width: 60px;
+    height:60px;
+    padding-top: 10px;
+    padding-right: 20px;
+}  
+
+.second-img {
+    width: 110px;
+    height: 100px;
+    margin-left: -140px;
+}
+
+.third-img{
+    width: 30px;
+    height: 60px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.fourth-img {
+    width: 35px;
+    height:50px;
+    padding-left: 0px;
+    padding-top: 10px;
+
+}
+
+.text-1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-1 h3 {
+    text-align: center;
+}
+
+.footer {
+    background-color: transparent;
+    background-image:  linear-gradient( to bottom, #2c2c2c, #545454 );
+    padding: 1px;
+    color: white;
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 100px;
+    width: 100%;
+    font-weight: lighter;
+}
+
+.footer p {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.whats{
+    width: 60px;
+    padding-left: 60px;
+}
+
+.img-whats{
+    padding-right: 40px;
+}
+
+.insta {
+    width: 60px;
+}
+
+.img-insta {
+    padding-left: 320px;
+    padding-right: 50px;
+}
+
+.p-insta {
+    width: 450px;
+}
+
+.gmail {
+    width:50px;
+    padding-left: 60px;
+}
+
+.img-gmail {
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.face {
+    width: 30px;
+}
+
+.img-face {
+    padding-left: 185px;
+    padding-right: 70px;
 }
